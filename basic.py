@@ -31,7 +31,7 @@ class Test(unittest.TestCase):
         output = self.hello.get_message()
 
         self.assertEqual(output,
-                      "Hello World!",
+                      "Hello World",
                       "get_message() does not output the correct value.")
 
 
