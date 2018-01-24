@@ -20,13 +20,10 @@ if __name__=='__main__':
 '''		
 #Using pytest
 
-#no import needed
-
 def upper_reverse(text):
     return ''.join(reversed(text.upper()))
 
-#No need to wrap test case into a class
-def test_upper_reversed():
+def test_upper_reverse():
 	assert upper_reverse('hello') == 'OLLEH'	
 	
 '''
