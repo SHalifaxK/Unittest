@@ -23,7 +23,7 @@ if __name__=='__main__':
 #no import needed
 
 def upper_reverse(text):
-    return ''.join(reversed(text.upper())
+    return ''.join(reversed(text.upper()))
 
 #No need to wrap test case into a class
 def test_upper_reversed():
